@@ -1,0 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+// I put this on the particle system.
+public class DestroyAfterTime : MonoBehaviour {
+
+
+    // Use this for initialization
+    void Start()
+    {
+        Destroy(gameObject, 3f);
+    }
+
+ 
+}
