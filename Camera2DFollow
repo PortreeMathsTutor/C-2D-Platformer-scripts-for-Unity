@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-//I put this on the camera
+//I put this on the camera and then desided it was better without it.
 
 namespace UnityStandardAssets._2D
 {
