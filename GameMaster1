@@ -1,0 +1,10 @@
+using UnityEngine;
+using System.Collections;
+//I put this on _GM where the Paralaxing script is.
+public class GameMaster : MonoBehaviour {
+
+	public static void KillPlayer (Player player) {
+		Destroy (player.gameObject);
+	}
+
+}
